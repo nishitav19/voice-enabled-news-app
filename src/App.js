@@ -21,10 +21,17 @@ const App = () => {
 
   return (
     <div>
-      <h1>Alan AI News Application</h1>
+      <h1 style={h1Style}>Alan AI News Application</h1>
       <NewsCards articles={newsArticles} />
     </div>
   );
+}
+
+const h1Style = {
+  textAlign: 'center',
+  fontFamily: 'Impact',
+  fontWeight: 100,
+  margin: '5% 0 2% 0'
 }
 
 export default App

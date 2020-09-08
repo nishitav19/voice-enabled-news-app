@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardActions, CardMedia, Button, CardActionArea, CardContent, Typography } from '@material-ui/core'
+import { Card, CardActions, CardMedia, CardActionArea, CardContent, Typography } from '@material-ui/core'
 import useStyles from './style.js'
 
 const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage }, i }) => {
@@ -25,7 +25,6 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
                 </CardContent>
             </CardActionArea>
             <CardActions className={classes.cardActions}>
-                <Button size="small" color="primary"> Learn More </Button>
                 <Typography variant="h5" color="textSecondary">{i + 1}</Typography>
             </CardActions>
         </Card>

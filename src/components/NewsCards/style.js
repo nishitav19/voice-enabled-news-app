@@ -12,15 +12,15 @@ const styles = makeStyles({
         justifyContent: 'space-between',
         alignItems: 'center',
         width: '100%',
-        height: '45vh',
-        padding: '20px 8px',
-        borderRadius: 10,
+        height: '40vh',
+        padding: '30px 15px',
         color: 'white'
     },
     infoCard: {
         display: 'flex',
         flexDirection: 'column',
-        textAlign: 'center'
+        textAlign: 'center',
+        margin: '0 auto'
     }
 })
 
